@@ -1,11 +1,11 @@
 # FYP-AI-Based_stock_price_prediction
 Predicting Stock Prices Using LSTM, RNN, and XGBoost with Twitter Sentiment Analysis — A comprehensive machine learning project for time-series forecasting that combines deep learning, gradient boosting, and social media insights.
 
-# Stock Price Prediction for BYD (BYDDY)
+# Stock Price Prediction for BYD (BYDDY), Li-Auto (LI), NIO (NIO), XPENG (XPEV), and TESLA (TSLA)
 
 This repository contains a comprehensive project that explores multiple machine learning models to predict stock prices for BYD Company Limited (BYDDY). The models implemented include LSTM (Long Short-Term Memory), RNN (Recurrent Neural Network), and XGBoost. Additionally, the project incorporates sentiment analysis from Twitter data to assess the correlation between public sentiment and stock performance.
 
-## 📁 Project Structure
+## 📁 Project Structure (repeat for other selected stocks)
 
 - `BYD's LSTM Model.ipynb` – Implements a deep learning approach using LSTM for time-series prediction of BYDDY closing prices.
 - `BYD's RNN Model.ipynb` – Utilizes a stacked SimpleRNN architecture to model the temporal dependencies in the stock data.
@@ -13,7 +13,7 @@ This repository contains a comprehensive project that explores multiple machine 
 - `Data Cleaning.ipynb` – Cleans raw Twitter data for companies like Li Auto, XPeng, and NIO for further analysis.
 - `Data Wangling (Twitter).ipynb` – Collects and processes tweets using `snscrape`, preparing datasets for sentiment and textual analysis.
 
-## 📊 Datasets
+## 📊 Datasets (repeat for other selected stocks)
 
 - Stock price data: Acquired using the `yfinance` API for ticker `BYDDY` between 2020-07-30 and 2022-08-27.
 - Twitter data: Scraped using `snscrape` and includes tweets mentioning $LI, $NIO, and $XPEV.
